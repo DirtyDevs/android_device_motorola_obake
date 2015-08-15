@@ -1,6 +1,6 @@
 [
   {
-    "remote": "dd",
+    "remote": "du",
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common",
     "revision": "lollipop-caf"
@@ -18,8 +18,8 @@
     "revision": "lollipop-caf"
   },
   {
-   "remote": "dd",
-   "repository": "proprietary_vendor_motorola",
+   "remote": "du",
+   "repository": "android_vendor_motorola",
    "target_path": "vendor/motorola",
    "revision": "lollipop-caf"
   }
