@@ -1,3 +1,5 @@
 # Radio
 rild.libargs=-d /dev/smd0
 rild.libpath=/system/lib/libril-qc-qmi-1.so
+#DU Updater
+ro.du.updater=obake
