@@ -12,14 +12,17 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-$(call inherit-product, device/motorola/obake/full_obake.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common DU stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+# Inherit from obake device
+$(call inherit-product, device/motorola/obake/device.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
-
-PRODUCT_RELEASE_NAME := DROID Ultra
-PRODUCT_NAME :=du_obake
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := obake
+PRODUCT_NAME := full_obake
+PRODUCT_BRAND := motorola
+PRODUCT_MODEL := obake
+PRODUCT_MANUFACTURER := motorola
