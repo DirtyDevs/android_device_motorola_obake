@@ -1,20 +1,24 @@
 [
   {
+    "remote": "du",
     "repository": "android_device_qcom-common",
     "target_path": "device/qcom/common",
     "revision": "lollipop-caf"
   },
   {
+    "remote": "du",
     "repository": "android_device_motorola_msm8960dt-common",
     "target_path": "device/motorola/msm8960dt-common",
     "revision": "lollipop-caf"
   },
   {
+    "remote": "dd",
     "repository": "android_kernel_motorola_ghost",
     "target_path": "kernel/motorola/ghost",
     "revision": "lollipop-caf"
   },
   {
+   "remote": "du",
    "repository": "android_vendor_motorola",
    "target_path": "vendor/motorola",
    "revision": "lollipop-caf"
